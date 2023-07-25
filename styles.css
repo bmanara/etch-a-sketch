@@ -1,0 +1,22 @@
+#sketch {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.grid {
+    flex-grow: 1;
+}
+
+.highlighted {
+    background-color: black;
+}
